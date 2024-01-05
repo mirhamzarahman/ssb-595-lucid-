@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+
+    margin: 0;
+    padding: 0;
+}
+header{
+position: relative;
+min-height: 100vh;
+    background: url(../image/banner.png);
+}
+.nav-item{
+    padding: 0 15px;
+}
+a.nav-link {
+    color: #fffefe;
+    font-size: 16px;
+    position: relative;
+    padding: 0 !important;
+}
+a.nav-link:hover{
+    color: #fff; 
+}
+a.nav-link::before{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #008ED6;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: .5s all ease-in-out;
+}
+a.nav-link::after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #008ED6;
+    position: absolute;
+    right: 0;
+    transition: .5s all ease-in-out;
+    bottom:  -5px;
+}
+
+a.nav-link:hover::before{
+    width: 48%;
+
+}
+a.nav-link:hover::after{
+    width: 48%;
+
+}
+.banner-content{
+  
+
+}
+.banner-content h5{
+    
+font-size: 14px;
+    
+color: #008ed6;
+    
+
+    
+margin-bottom: 15px;
+}
+.banner-content h1 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+.banner-content p{
+    color: #999999;
+    font-size: 16px;
+    margin-bottom: 50px;
+
+}
+.banner-content ul {
+display: flex;
+
+}
+.banner-content ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+.banner-content ul li a{
+    color: #fff;
+    padding: 0;
+    padding: 10px 30px;
+}
+.banner-content .btn_custom{
+    border: 1px solid black;
+    background-color: #008ED6;
+    font-size: 12px; !important
+    padding: 0;    
+}
+.banner-content .btn_custom:hover{
+    background-color: #ffffff;
+    color: #fff;
+    background: transparent;
+}
+
+.phone {
+    position: absolute;
+    bottom: 0;
+}
+.height{
+    min-height: 80vh;
+    align-items: center;
+}
+
+/* @media (min-width:576px)and (max-width:768px) {
+    .phone{
+      background-repeat: inherit;
+    }
+    
+} */
+.Feature{
+    
+}
+.features_title{
+  
+
+}
+.features_title h5{
+    font-size: 14px;
+    color: #008ed6;
+}
+
+.features_title h1{
+    font-size: 27px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+.features_title span{
+    display: block;
+    width: 0;
+    height: 3px;
+    left: 0;
+    margin-top: 10px;
+   background-color: #008ed6;
+    margin: auto; 
+    transition: .5s all ease-in-out;
+}
+
+.Feature:hover .features_title span{
+    width: 50px;
+}
+
+.features_containt .icons i {
+    width: 50px;
+}
+
+.features_containt .icons {
+ height: 60px;
+ width: 60px;
+ border: 1px solid rgb(230, 227, 227);
+ border-radius: 50%;
+ background-color: #fff4f4;
+ text-align: center;
+ line-height: 60px;
+ align-items: center;
+ margin: auto;
+ margin-bottom: 30px;
+}
+.features_containt h3 {
+   font-size: 24px;
+   margin-bottom: 10px;
+   color: #1a1a1a;
+}
+
+.features_containt p {
+    font-size: 15px;
+    color: #999999;
+}
+
+
+.detail_content span{
+    display: block;
+    width: 0;
+    height: 3px;
+    left: 0;
+   background-color: #008ed6;
+   margin-left: 0;
+    transition: .5s all ease-in-out;
+}
+
+.detail:hover .detail_content span{
+    width: 50px;
+}
+.detail_content{
+   
+}
+
+.detail_content h5{
+   
+font-size: 14px;
+   
+margin-bottom: 20px;
+}
+.detail_content h1 {
+   
+margin-bottom: 18px;
+   
+color: #1a1a1a;
+   
+font-size: 35px;
+}
+.detail_content p {
+   
+font-size: 14px;
+   margin-top: 35px;
+color: #999999;
+}
+.detail_content ul {
+   
+margin-top: 35px;
+   
+/* display: flex; */
+}
+.detail_content ul li{
+   
+display: flex;
+   
+list-style: none;
+   
+margin-top: 7px;
+   
+/* padding-left: 10px; */
+}
+.detail_content div {
+    
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+.customize_content{
+
+}
+
+
+.customize_content h5{
+
+    
+}
+
+.customize_content h1{
+    
+}
+
+.customize_content p{ 
+    
+}
+
+.customize_content span{
+    display: block;
+    width: 0;
+    height: 3px;
+    left: 0;
+   background-color: #008ed6;
+   margin-left: 0;
+    transition: .5s all ease-in-out;
+    
+}
+.customize:hover .customize_content span{
+    width: 50px;
+}
+
+.customize{
+    background-color: #f2f2f2;
+}
